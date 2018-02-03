@@ -1,0 +1,2 @@
+class Promocod < ApplicationRecord
+end

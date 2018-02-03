@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6">
+
+
+      <% if notice %>
+          <div class="alert alert-info">
+            <%= notice %>
+          </div>
+      <% end %>
+      <br/>
+      <form action="/search" method="get">
+        <input type="text" name="code" placeholder="Промокод">
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+  </div>
+
+</div>

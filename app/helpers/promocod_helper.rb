@@ -1,0 +1,2 @@
+module PromocodHelper
+end
