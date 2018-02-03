@@ -44,4 +44,9 @@ puts promocod
       end
     end
   end
+
+  def all
+    @data = Promocod.all
+    render json: @data
+  end
 end
